@@ -2,165 +2,211 @@
 <items version="2" >
 
     <item
-        jar="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
         jumboMode="true"
-        revision="24.0.0"
-        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.0_a755eeced9029903f71dfd66132424d2ce88e34a/classes.dex" />
-    </item>
-    <item
-        jar="/usr/local/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.0/support-annotations-24.1.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.0_4ae8b5af09fee6fb963999d90667066c2c35b144/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_e21b7b8b9fef55031917826e13b4fd054a8b170f/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="61782fa95b2e6d6368bace2b1f3fc55fb72ae3bb">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5b6229e5d2fa5548643a0a93c0174c1cf7a60870/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="4157816e81f0820983957687e9a6f4c1cea0f1e5">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.0_f440e8434c1d909cc27713b4e1ea865cb38ec47e/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/libs/internal_impl-24.1.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.0_0157675854673e8c4acb18da70cdde32d76a6a4d/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.8/cf615176cd1177edf71d3c9605f8dc148fede6be/otto-1.3.8.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="cf615176cd1177edf71d3c9605f8dc148fede6be">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/otto-1.3.8_096946d70867c4c5a3592b3a9879c1c9ca17cdc7/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.0/76d5ab52302434606c732539314290db91ebf25/okhttp-3.4.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="076d5ab52302434606c732539314290db91ebf25">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.0_34c1c8448274318c80f48374530285fdfaf12c8d/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.0/73ccf14fba19ce2190297ac801579f3a85f1c0e8/logging-interceptor-3.4.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="73ccf14fba19ce2190297ac801579f3a85f1c0e8">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.4.0_fd59e0216667345b05d6a7d739c2a8d988e490fc/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/design/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="8620c018c108eed501bbdb85324b79136373ea44">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.0_5dfc46ccd58c381bfcb6a49299e0348ca9053c74/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="8c854b30eca6c442fe842e66cd3b58c5dd08996f">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.0_156ceba2e3adedc8ca59894b1f8bbe7b7d53b1f1/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
-        jumboMode="true"
+        optimize="true"
         revision="24.0.0"
         sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.0_942c1b3c8dfbaaeb8263030cd139b61504832d98/classes.dex" />
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.0_47dc2b7c3c1156d6ed040a0194cbb00b8cebedb8/classes.dex" />
     </item>
     <item
-        jar="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/exploded-aar/io.reactivex.rxjava2/rxandroid/2.0.1/jars/classes.jar"
+        is-multidex="true"
+        jar="/Users/Kevin/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
         jumboMode="true"
-        revision="24.0.0"
-        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex.rxjava2-rxandroid-2.0.1_2063932d7ba614132e90e3a5ac01550fd94d464f/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_003813edf1b717283b44ad26a837bc618ef808e9/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_ae479a0c36b3936480bc038ba17a9f1586a17dd9/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/.gradle/caches/modules-2/files-2.1/com.jakewharton.retrofit/retrofit2-rxjava2-adapter/1.0.0/e117362a2103f8ec01091ebd2f40aca4e1ada599/retrofit2-rxjava2-adapter-1.0.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="e117362a2103f8ec01091ebd2f40aca4e1ada599">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit2-rxjava2-adapter-1.0.0_96885d03e372f15cbe0aa57e514afa647d5c31a6/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="c9fa4b292c71009249c67f893a602bf94979d6a5">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a69aac08fb1d42e3504615e3b0141af6d854c7b4/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_a78921142bda1add1957f31df77b26280504dee0/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.1/57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb/rxjava-2.0.1.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-2.0.1_4b4f4014b1d45b6b6bbd7ab3c0d0a90123bf0a99/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
-        jumboMode="true"
-        revision="24.0.0"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_0c67256039eb49df67fead3bb00772266dc7745d/classes.dex" />
-    </item>
-    <item
-        jar="/Users/yuchihan/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
-        jumboMode="true"
+        optimize="true"
         revision="24.0.0"
         sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/reactive-streams-1.0.0_91459a8610eda782153a2de5886e5abf12253f1f/classes.dex" />
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/reactive-streams-1.0.0_799b71ee5232e928992b474454bb36579e74cc6c/classes.dex" />
     </item>
     <item
-        jar="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
         jumboMode="true"
+        optimize="true"
         revision="24.0.0"
-        sha1="9340c4f95a4e3916c9ad70296e24576743743712">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.0_40f746f6605f8d464aec7ebdc1bc8c9119ee302f/classes.dex" />
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_15b3798877a156b5fb94fb5c46ef43e26a975161/classes.dex" />
     </item>
     <item
-        jar="/Users/yuchihan/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        is-multidex="true"
+        jar="/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.0/73ccf14fba19ce2190297ac801579f3a85f1c0e8/logging-interceptor-3.4.0.jar"
         jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="73ccf14fba19ce2190297ac801579f3a85f1c0e8">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.4.0_5fb9a4a5e94f33d38f96193b863b5a0d5b879b77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
         revision="24.0.0"
         sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/yuchihan/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_0a18daea1faa3384943c2b02e8a46160440263a5/classes.dex" />
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_92950abe8a861b6d9ba3f09e2cfcfe0208473816/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_436eb004f11d3f3344d37973ba6241f68c176ab3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c56e4a6605bb9089d9011f1cec98065529869b4d">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_18f55a9c796f9f7bccb96e401129ecb6f161ebf9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.jakewharton.retrofit/retrofit2-rxjava2-adapter/1.0.0/e117362a2103f8ec01091ebd2f40aca4e1ada599/retrofit2-rxjava2-adapter-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e117362a2103f8ec01091ebd2f40aca4e1ada599">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit2-rxjava2-adapter-1.0.0_03b5080a917f8c344b872b2cae72fe67c3c496a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.0.0_fed532bad7560db0c1fe0e106d3b6614d596cdb6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.1/57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb/rxjava-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-2.0.1_c1fd8b6aeb402eb0079a9cdf2437d38c39835616/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4157816e81f0820983957687e9a6f4c1cea0f1e5">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.0_837a92c0686d322c0c9aa0b2046147b6b5531928/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.squareup/otto/1.3.8/cf615176cd1177edf71d3c9605f8dc148fede6be/otto-1.3.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="cf615176cd1177edf71d3c9605f8dc148fede6be">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/otto-1.3.8_17c2e00a28d33fb14914984c51d51f4f47d7314c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/libs/internal_impl-24.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.0_55a458d9c6e352758db2733426561bfa5ee858c4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/exploded-aar/io.reactivex.rxjava2/rxandroid/2.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex.rxjava2-rxandroid-2.0.1_8f5897efd54fd2d63ce773d8b81a3f86cbd63e86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9340c4f95a4e3916c9ad70296e24576743743712">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.0_c651bd1c31ca0bc8338a51567daf70bfedbc7af1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8c854b30eca6c442fe842e66cd3b58c5dd08996f">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.0_d91353e33d40f49325f424ca3643929c365274c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/design/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8620c018c108eed501bbdb85324b79136373ea44">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.0_4ca466400650fb61f44226ae72931f13d63f4905/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_fe4bc4e55c893bfcb25f4d8c2665ea4395aac47b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.0/76d5ab52302434606c732539314290db91ebf25/okhttp-3.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="076d5ab52302434606c732539314290db91ebf25">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.0_3b82ad7162612d8c81906794b1d19035fec23f1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a0fcaafc3ead620e55f4f1554f824d01d3c0ac33">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_94b757b161810e96950eb42b4da3cbaed0efc556/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.0/support-annotations-24.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.0_2d1554143c773cd54f0234c4737771aaed6a7bed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.0_edb63da6e67e3e7bf5efe63355a5f21033193238/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Kevin/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Kevin/Desktop/android-doordash/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_4c0f3270340c38fc920086441e3291e5981a4ac3/classes.dex" />
     </item>
 
 </items>

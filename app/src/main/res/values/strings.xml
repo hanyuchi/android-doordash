@@ -9,5 +9,7 @@
     <string name="error_field_required">This field is required</string>
     <string name="id_label">The ID is</string>
     <string name="favorites">Favorites</string>
+    <string name="search">Search</string>
+    <string name="detail">Detail</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
 </resources>

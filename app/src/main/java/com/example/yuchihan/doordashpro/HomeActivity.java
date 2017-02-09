@@ -41,6 +41,12 @@ public class HomeActivity extends AppCompatActivity {
             return true;
         }
 
+        if (id == R.id.search) {
+            Intent intent = new Intent(this, SearchActivity.class);
+            startActivity(intent);
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 }

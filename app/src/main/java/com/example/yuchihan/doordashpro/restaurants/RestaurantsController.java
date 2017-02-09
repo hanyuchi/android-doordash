@@ -5,7 +5,6 @@ import android.support.annotation.NonNull;
 import android.view.ViewGroup;
 
 import com.example.yuchihan.doordashpro.R;
-import com.example.yuchihan.doordashpro.Utils.SharePreferencesUtil;
 import com.example.yuchihan.doordashpro.model.Restaurant;
 
 import java.util.List;
@@ -17,6 +16,7 @@ public class RestaurantsController implements RestaurantResultsView.Listener {
 
     @NonNull private Activity activity;
 
+    private Listener listener;
     private RestaurantResultsView restaurantResultsView;
     private ViewGroup rootView;
 
@@ -35,6 +35,13 @@ public class RestaurantsController implements RestaurantResultsView.Listener {
     }
 
     /**
+     * @param listener {@link RestaurantResultsView.Listener}.
+     */
+    public void setListener(@NonNull Listener listener) {
+        this.listener = listener;
+    }
+
+    /**
      * @param restaurants a list of {@link Restaurant}.
      */
     public void updateRestaurants(@NonNull List<Restaurant> restaurants) {
@@ -49,6 +56,20 @@ public class RestaurantsController implements RestaurantResultsView.Listener {
 
     @Override
     public void onRestaurantSelected(@NonNull Restaurant restaurant) {
-        SharePreferencesUtil.updateFavoriteRestaurants(activity, restaurant);
+//        SharePreferencesUtil.updateFavoriteRestaurants(activity, restaurant);
+        listener.onRestaurantSelected(restaurant);
+    }
+
+    /**
+     * Callback listener.
+     */
+    public interface Listener {
+
+        /**
+         * On item selected.
+         *
+         * @param restaurant restaurant view model.
+         */
+        void onRestaurantSelected(@NonNull Restaurant restaurant);
     }
 }

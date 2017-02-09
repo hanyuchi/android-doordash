@@ -1,6 +1,8 @@
 package com.example.yuchihan.doordashpro;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +12,7 @@ import android.widget.Toast;
 import com.example.yuchihan.doordashpro.Client.RestaurantSearcher;
 import com.example.yuchihan.doordashpro.model.Restaurant;
 import com.example.yuchihan.doordashpro.restaurants.RestaurantsController;
+import com.google.gson.Gson;
 
 import java.util.List;
 
@@ -20,7 +23,10 @@ import io.reactivex.schedulers.Schedulers;
 /**
  * Home Fragment.
  */
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements RestaurantsController.Listener {
+
+    @NonNull private static final String RESTAURANT = "restaurant";
+    @NonNull private static final Gson gson = new Gson();
 
     private RestaurantsController restaurantsController;
     private RestaurantSearcher restaurantSearcher = new RestaurantSearcher();
@@ -36,6 +42,7 @@ public class HomeFragment extends Fragment {
         super.onCreate(savedInstanceState);
 
         restaurantsController = new RestaurantsController(getActivity());
+        restaurantsController.setListener(this);
 
         restaurantSearcher.restaurants()
                 .subscribeOn(Schedulers.io())
@@ -66,7 +73,18 @@ public class HomeFragment extends Fragment {
         return rootView;
     }
 
+    @Override
+    public void onRestaurantSelected(@NonNull Restaurant restaurant) {
+        showRestaurantDetail(restaurant);
+    }
+
     private void showLoadingError() {
         Toast.makeText(getContext(), "Error on loading restaurant list!", Toast.LENGTH_LONG).show();
+    }
+
+    private void showRestaurantDetail(@NonNull Restaurant restaurant) {
+        Intent intent = new Intent(getActivity(), DetailActivity.class);
+        intent.putExtra(RESTAURANT, gson.toJson(restaurant));
+        startActivity(intent);
     }
 }
